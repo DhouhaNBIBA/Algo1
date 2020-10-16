@@ -1,0 +1,17 @@
+ALGORITHM lenght
+VAR
+    chaine: STRING;
+    nbr_m: INTEGER:= 0;
+    i:INTEGER:= 0;
+BEGIN
+    Write ('Type your sentence')
+    Read (chaine)
+FOR (i=0, i< nbr_m.lenght,i++)  DO
+    IF (chaine.charAt[i]=' ') THEN
+    nbr_m=nbr_m+1
+    END_IF
+    i=i+1;
+END_FOR
+    nbr_m= nbr_m+1
+    print(nbr_c)
+END 

@@ -1,0 +1,17 @@
+ALGORITHM vowels
+VAR
+    chaine: STRING;
+    nbr_vow: INTEGER:= 0;
+    i:INTEGER:= 0;
+BEGIN
+    Write ('Type your sentence')
+    Read (chaine)
+    FOR (i=0, i< nbr_m.lenght,i++)  DO
+    IF (chaine.charAt[i]=='a' or chaine.charAt[i]=='e' or chaine.charAt[i]=='i' or chaine.charAt[i]=='o' 
+        or chaine.charAt[i]=='u' or chaine.charAt[i]=='y'  ) ) THEN
+    nbr_vow=nbr_vow+1
+    END_IF
+    i=i+1;
+END_FOR
+    print(nbr_vow)
+END
